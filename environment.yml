@@ -1,0 +1,13 @@
+name: torchqg
+channels:
+  - defaults
+dependencies: # tested on Ubuntu 18.04
+  - python=3.8.5
+  - numpy # Tested with 1.19.2
+  - pytorch # 1.7.1
+  - cudatoolkit=11.0.221
+  - matplotlib # 3.3.2
+  - seaborn
+  - pip
+  - pip:
+    - h5py
